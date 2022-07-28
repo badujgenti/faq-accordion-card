@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="stylesheet" href="main.css">
+      <title>Frontend Mentor | FAQ Accordion Card</title>
+      <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+   </head>
+   <body>
+      <div class="white-box">
+      <img class="bottom-pic" src="/images/bg-pattern-mobile.svg" >
+      <img class="main-pic" src="/images/illustration-woman-online-mobile.svg">
+      <h1 class="header">FAQ</h1>
+      <div class="question-box">
+         <div class="each-box">
+            <div class="for-arrow">
+               <button class="accordion"> 
+               How many team members can I invite?  </button>
+               <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+               </svg>
+            </div>
+            <div class="panel">
+               <p class="paragraph font"> You can invite up to 2 additional users on the Free plan. There is no limit on 
+                  team members for the Premium plan.
+               </p>
+            </div>
+            <hr class="rect">
+         </div>
+         <div class="each-box">
+          <div class="for-arrow">
+         <button class="accordion">What is the maximum file upload size? </button>
+         
+         <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+       </svg>
+      
+          </div>
+         <div class="panel">
+            <p class="paragraph"> No more than 2GB. All files in your account must fit your allotted storage space.</p>
+         </div>
+         <hr class="rect">
+         </div>
+         <div class="each-box">
+          <div class="for-arrow">
+         <button class="accordion">   How do I reset my password?</button>
+         <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+       </svg>
+          </div>
+         <div class="panel">
+            <p class="paragraph"> Click “Forgot password” from the login page or “Change password” from your profile page.
+               A reset link will be emailed to you.
+            </p>
+         </div>
+         <hr class="rect">
+         </div>
+         <div class="each-box">
+          <div class="for-arrow">
+         <button class="accordion">
+         Can I cancel my subscription?
+         </button>
+         <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+       </svg>
+          </div>
+         <div class="panel">
+            <p class="paragraph"> Yes! Send us a message and we’ll process your request no questions asked.</p>
+         </div>
+         <hr class="rect">
+         </div>
+         <div class="each-box">
+          <div class="for-arrow">
+         <button class="accordion"> Do you provide additional support? </button>
+         <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/>
+       </svg>
+          </div>
+         <div class="panel">
+            <p class="paragraph"> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+         </div>
+      </div>
+      </div>
+      </div>
+      <script src="main.js"> </script>
+   </body>
 </html>
