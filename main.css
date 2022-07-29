@@ -54,7 +54,22 @@ body{
     height: 139px;
     width: 236px;
     position: absolute;
-    top: 90px;
+    transform: translate(-236px, -56px);
+}
+.bottom-pic-desktop{
+    display: none;
+}
+.main-pic-desktop{
+    display: none;
+}
+.box-pic-desktop{
+    display: none;
+}
+.line-pic1{
+    display: none;
+}
+.line-pic2{
+    display: none;
 }
 
 .header{
@@ -62,6 +77,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
+    margin: 28px 130px 40px;
    
 }
 .paragraph{
@@ -85,4 +101,64 @@ body{
 .for-arrow{
     display: flex;
     justify-content: space-between;
+}
+
+
+@media screen and (min-width: 1000px){
+    .white-box{
+        
+        display: flex;
+        transform: translate(-98px, -10px);
+        height: 509px;
+        width: 920px;
+        left: 0px;
+        top: 0px;
+        border-radius: 23px;
+        overflow: hidden;
+    }
+    .bottom-pic{
+        display: none;
+    }
+    .main-pic{
+        display: none;
+    }
+    .question-box{
+       position: absolute;
+       top: 140px;
+       right: 0px;
+       margin-right: 95px;
+    }
+    .header{
+        position: absolute;
+        
+        top: 69px;
+        margin: 0px;
+        margin-left: 45px;
+    }
+    .rect{
+        
+    }
+    .bottom-pic-desktop{
+        display: inline;
+        transform: translate(-511px, -287px);
+    }
+    .main-pic-desktop{
+        display: inline;
+        transform: translate(-44px, -868px);
+    }
+    .accordion:hover{
+        color:#F47B56;
+        cursor: pointer;
+    }
+    .box-pic-desktop{
+        display: inline;
+        z-index: 1;
+        transform: translate(1px, 65px);
+    }
+    .paragraph{
+        width: 319px;
+    }
+    .for-arrow{
+        width: 319px;
+    }
 }

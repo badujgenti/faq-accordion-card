@@ -18,7 +18,6 @@ for (i = 0; i < acc.length; i++) {
         panel.style.display = "block"; 
         event.target.style.fontWeight = "700";
         event.target.nextElementSibling.style.transform = "rotate(180deg)";
-    
     }
     
 });
